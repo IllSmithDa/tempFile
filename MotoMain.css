@@ -1304,3 +1304,282 @@
 .motomain360 .table-borderless tbody + tbody {
   border: 0;
 }
+.motomain360 {
+  /* Something cause name spacer app to crash */
+}
+.motomain360 .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.motomain360 .table-hover tbody tr:hover {
+  color: #767676;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.motomain360 .table-primary,
+.motomain360 .table-primary > th,
+.motomain360 .table-primary > td {
+  background-color: #b8d2eb;
+}
+.motomain360 .table-primary th,
+.motomain360 .table-primary td,
+.motomain360 .table-primary thead th,
+.motomain360 .table-primary tbody + tbody {
+  border-color: #7aabda;
+}
+.motomain360 .table-hover .table-primary:hover {
+  background-color: #a4c5e5;
+}
+.motomain360 .table-hover .table-primary:hover > td,
+.motomain360 .table-hover .table-primary:hover > th {
+  background-color: #a4c5e5;
+}
+.motomain360 .table-secondary,
+.motomain360 .table-secondary > th,
+.motomain360 .table-secondary > td {
+  background-color: #fefefe;
+}
+.motomain360 .table-secondary th,
+.motomain360 .table-secondary td,
+.motomain360 .table-secondary thead th,
+.motomain360 .table-secondary tbody + tbody {
+  border-color: #fcfcfc;
+}
+.motomain360 .table-hover .table-secondary:hover {
+  background-color: #f1f1f1;
+}
+.motomain360 .table-hover .table-secondary:hover > td,
+.motomain360 .table-hover .table-secondary:hover > th {
+  background-color: #f1f1f1;
+}
+.motomain360 .table-success,
+.motomain360 .table-success > th,
+.motomain360 .table-success > td {
+  background-color: #b8f0cf;
+}
+.motomain360 .table-success th,
+.motomain360 .table-success td,
+.motomain360 .table-success thead th,
+.motomain360 .table-success tbody + tbody {
+  border-color: #7ae2a6;
+}
+.motomain360 .table-hover .table-success:hover {
+  background-color: #a3ecc1;
+}
+.motomain360 .table-hover .table-success:hover > td,
+.motomain360 .table-hover .table-success:hover > th {
+  background-color: #a3ecc1;
+}
+.motomain360 .table-info,
+.motomain360 .table-info > th,
+.motomain360 .table-info > td {
+  background-color: #cdedfa;
+}
+.motomain360 .table-info th,
+.motomain360 .table-info td,
+.motomain360 .table-info thead th,
+.motomain360 .table-info tbody + tbody {
+  border-color: #a3def6;
+}
+.motomain360 .table-hover .table-info:hover {
+  background-color: #b6e5f8;
+}
+.motomain360 .table-hover .table-info:hover > td,
+.motomain360 .table-hover .table-info:hover > th {
+  background-color: #b6e5f8;
+}
+.motomain360 .table-warning,
+.motomain360 .table-warning > th,
+.motomain360 .table-warning > td {
+  background-color: #fff4c8;
+}
+.motomain360 .table-warning th,
+.motomain360 .table-warning td,
+.motomain360 .table-warning thead th,
+.motomain360 .table-warning tbody + tbody {
+  border-color: #ffea99;
+}
+.motomain360 .table-hover .table-warning:hover {
+  background-color: #ffefaf;
+}
+.motomain360 .table-hover .table-warning:hover > td,
+.motomain360 .table-hover .table-warning:hover > th {
+  background-color: #ffefaf;
+}
+.motomain360 .table-light,
+.motomain360 .table-light > th,
+.motomain360 .table-light > td {
+  background-color: #fdfdfe;
+}
+.motomain360 .table-light th,
+.motomain360 .table-light td,
+.motomain360 .table-light thead th,
+.motomain360 .table-light tbody + tbody {
+  border-color: #fbfcfc;
+}
+.motomain360 .table-hover .table-light:hover {
+  background-color: #ececf6;
+}
+.motomain360 .table-hover .table-light:hover > td,
+.motomain360 .table-hover .table-light:hover > th {
+  background-color: #ececf6;
+}
+.motomain360 .table-dark,
+.motomain360 .table-dark > th,
+.motomain360 .table-dark > td {
+  background-color: #c6c8ca;
+}
+.motomain360 .table-dark th,
+.motomain360 .table-dark td,
+.motomain360 .table-dark thead th,
+.motomain360 .table-dark tbody + tbody {
+  border-color: #95999c;
+}
+.motomain360 .table-hover .table-dark:hover {
+  background-color: #b9bbbe;
+}
+.motomain360 .table-hover .table-dark:hover > td,
+.motomain360 .table-hover .table-dark:hover > th {
+  background-color: #b9bbbe;
+}
+.motomain360 .table-error,
+.motomain360 .table-error > th,
+.motomain360 .table-error > td {
+  background-color: #f7c9ce;
+}
+.motomain360 .table-error th,
+.motomain360 .table-error td,
+.motomain360 .table-error thead th,
+.motomain360 .table-error tbody + tbody {
+  border-color: #f09ba3;
+}
+.motomain360 .table-hover .table-error:hover {
+  background-color: #f4b3ba;
+}
+.motomain360 .table-hover .table-error:hover > td,
+.motomain360 .table-hover .table-error:hover > th {
+  background-color: #f4b3ba;
+}
+.motomain360 .table-active,
+.motomain360 .table-active > th,
+.motomain360 .table-active > td {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.motomain360 .table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.motomain360 .table-hover .table-active:hover > td,
+.motomain360 .table-hover .table-active:hover > th {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+.motomain360 .table .thead-dark th {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #454d55;
+}
+.motomain360 .table .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+.motomain360 .table-dark {
+  color: #fff;
+  background-color: #343a40;
+}
+.motomain360 .table-dark th,
+.motomain360 .table-dark td,
+.motomain360 .table-dark thead th {
+  border-color: #454d55;
+}
+.motomain360 .table-dark.table-bordered {
+  border: 0;
+}
+.motomain360 .table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.motomain360 .table-dark.table-hover tbody tr:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+@media (max-width: 575.98px) {
+  .motomain360 .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .motomain360 .table-responsive-sm > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .motomain360 .table-responsive-md {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .motomain360 .table-responsive-md > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .motomain360 .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .motomain360 .table-responsive-lg > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .motomain360 .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .motomain360 .table-responsive-xl > .table-bordered {
+    border: 0;
+  }
+}
+.motomain360 .table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.motomain360 .table-responsive > .table-bordered {
+  border: 0;
+}
+.motomain360 .form-control {
+  display: block;
+  width: 100%;
+  height: 2.625rem;
+  padding: 0.625rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #343434;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .motomain360 .form-control {
+    transition: none;
+  }
+}
+.motomain360 .form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.motomain360 .form-control:focus {
+  color: #343434;
+  background-color: #fff;
+  border-color: #005cb9;
+  outline: 0;
+  box-shadow: none;
+}
